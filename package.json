@@ -1,0 +1,29 @@
+{
+  "name": "intl",
+  "version": "0.0.0",
+  "description": "Simple translations manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdanea/node-intl.git"
+  },
+  "keywords": [
+    "intl",
+    "i18n"
+  ],
+  "dependencies": {
+        "i18n": "*",
+        "path": "*"
+  },
+  "devDependencies": {
+        "vows": "0.7.0",
+        "mocha": "*",
+        "should": "*"
+  },
+  "author": "Ciprian Danea",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
